@@ -1,0 +1,114 @@
+.radiotext {
+  font-size: 18px;
+  font-weight: bold;
+}
+input[type="radio"]:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #d1d3d1;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+input[type="radio"]:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #ffa500;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid black;
+  padding: 10px;
+  font-size: 22px;
+}
+
+input[type="radio"]:checked + .radiotext {
+  animation: bulge 1s forwards;
+  font-size: 18px;
+}
+
+.radiotext {
+  padding-left: 15px;
+}
+
+@keyframes bulge {
+  50% {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  100% {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+}
+
+body {
+  background: linear-gradient(219deg, #cbe872, #2c73b7);
+  background-size: 400% 400%;
+
+  -webkit-animation: AnimationName 46s ease infinite;
+  -moz-animation: AnimationName 46s ease infinite;
+  -o-animation: AnimationName 46s ease infinite;
+  animation: AnimationName 46s ease infinite;
+
+  @-webkit-keyframes AnimationName {
+    0% {
+      background-position: 0% 75%;
+    }
+    50% {
+      background-position: 100% 26%;
+    }
+    100% {
+      background-position: 0% 75%;
+    }
+  }
+  @-moz-keyframes AnimationName {
+    0% {
+      background-position: 0% 75%;
+    }
+    50% {
+      background-position: 100% 26%;
+    }
+    100% {
+      background-position: 0% 75%;
+    }
+  }
+  @-o-keyframes AnimationName {
+    0% {
+      background-position: 0% 75%;
+    }
+    50% {
+      background-position: 100% 26%;
+    }
+    100% {
+      background-position: 0% 75%;
+    }
+  }
+  @keyframes AnimationName {
+    0% {
+      background-position: 0% 75%;
+    }
+    50% {
+      background-position: 100% 26%;
+    }
+    100% {
+      background-position: 0% 75%;
+    }
+  }
+}
+
+.inputbox:focus {
+  background: #efefef;
+  border: 0.2pt solid blue;
+  box-shadow: 2px 2px;
+}
