@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6c46ff28448abb2a031bed9a4f694e58",
+    "revision": "b01824446b9f1ef1dc3b97eefa7712ce",
     "url": "/makemyavatar/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/makemyavatar/static/css/2.601ecfa0.chunk.css"
   },
   {
-    "revision": "c235ee35bc0b518bbede",
+    "revision": "2a8d7dc64336d18ff25c",
     "url": "/makemyavatar/static/css/main.65a8cc1b.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/makemyavatar/static/js/2.6028263b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c235ee35bc0b518bbede",
-    "url": "/makemyavatar/static/js/main.7f124b4f.chunk.js"
+    "revision": "2a8d7dc64336d18ff25c",
+    "url": "/makemyavatar/static/js/main.1f298d5e.chunk.js"
   },
   {
     "revision": "5ecb565c61e4284c2abc",
