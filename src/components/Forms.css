@@ -52,61 +52,6 @@ input[type="radio"]:checked + .radiotext {
   }
 }
 
-body {
-  background: linear-gradient(219deg, #cbe872, #2c73b7);
-  background-size: 400% 400%;
-
-  -webkit-animation: AnimationName 46s ease infinite;
-  -moz-animation: AnimationName 46s ease infinite;
-  -o-animation: AnimationName 46s ease infinite;
-  animation: AnimationName 46s ease infinite;
-
-  @-webkit-keyframes AnimationName {
-    0% {
-      background-position: 0% 75%;
-    }
-    50% {
-      background-position: 100% 26%;
-    }
-    100% {
-      background-position: 0% 75%;
-    }
-  }
-  @-moz-keyframes AnimationName {
-    0% {
-      background-position: 0% 75%;
-    }
-    50% {
-      background-position: 100% 26%;
-    }
-    100% {
-      background-position: 0% 75%;
-    }
-  }
-  @-o-keyframes AnimationName {
-    0% {
-      background-position: 0% 75%;
-    }
-    50% {
-      background-position: 100% 26%;
-    }
-    100% {
-      background-position: 0% 75%;
-    }
-  }
-  @keyframes AnimationName {
-    0% {
-      background-position: 0% 75%;
-    }
-    50% {
-      background-position: 100% 26%;
-    }
-    100% {
-      background-position: 0% 75%;
-    }
-  }
-}
-
 .inputbox:focus {
   background: #efefef;
   border: 0.2pt solid blue;
