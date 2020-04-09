@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/makemyavatar/static/css/main.65a8cc1b.chunk.css",
+    "main.js": "/makemyavatar/static/js/main.7f124b4f.chunk.js",
+    "main.js.map": "/makemyavatar/static/js/main.7f124b4f.chunk.js.map",
+    "runtime-main.js": "/makemyavatar/static/js/runtime-main.51fcf61f.js",
+    "runtime-main.js.map": "/makemyavatar/static/js/runtime-main.51fcf61f.js.map",
+    "static/css/2.601ecfa0.chunk.css": "/makemyavatar/static/css/2.601ecfa0.chunk.css",
+    "static/js/2.6028263b.chunk.js": "/makemyavatar/static/js/2.6028263b.chunk.js",
+    "static/js/2.6028263b.chunk.js.map": "/makemyavatar/static/js/2.6028263b.chunk.js.map",
+    "index.html": "/makemyavatar/index.html",
+    "precache-manifest.182ef3c48aad0107285b094ef4711a55.js": "/makemyavatar/precache-manifest.182ef3c48aad0107285b094ef4711a55.js",
+    "service-worker.js": "/makemyavatar/service-worker.js",
+    "static/css/2.601ecfa0.chunk.css.map": "/makemyavatar/static/css/2.601ecfa0.chunk.css.map",
+    "static/css/main.65a8cc1b.chunk.css.map": "/makemyavatar/static/css/main.65a8cc1b.chunk.css.map",
+    "static/js/2.6028263b.chunk.js.LICENSE.txt": "/makemyavatar/static/js/2.6028263b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.51fcf61f.js",
+    "static/css/2.601ecfa0.chunk.css",
+    "static/js/2.6028263b.chunk.js",
+    "static/css/main.65a8cc1b.chunk.css",
+    "static/js/main.7f124b4f.chunk.js"
+  ]
+}
